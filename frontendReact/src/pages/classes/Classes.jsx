@@ -11,6 +11,10 @@ import classKg from "/assets/frontend_assets/img/class/kg.png";
 import classOne from "/assets/frontend_assets/img/class/one.png";
 import classTwo from "/assets/frontend_assets/img/class/two.png";
 import classThree from "/assets/frontend_assets/img/class/three.png";
+import classFive from "/assets/frontend_assets/img/class/five.png";
+import classSixBoy from "/assets/frontend_assets/img/class/six-boy.png";
+import classNineBoy from "/assets/frontend_assets/img/class/nine-boy.png";
+// import classThree from "/assets/frontend_assets/img/class/three.png";
 import classAll from "/assets/frontend_assets/img/class/all.png";
 
 
@@ -94,13 +98,13 @@ export default function Classes() {
             capacity={t("25-kids")} 
             />         
             <SingleClass 
-            image={classAll} 
+            image={classFive} 
             classTitle={t("class-five")} 
             shift1={t("five1")}            
             capacity={t("25-kids")} 
             />         
             <SingleClass 
-            image={classAll} 
+            image={classSixBoy} 
             classTitle={t("class-six")} 
             shift2={t("six2")}            
             capacity={t("25-kids")} 
@@ -118,7 +122,7 @@ export default function Classes() {
             capacity={t("25-kids")} 
             />         
             <SingleClass 
-            image={classAll} 
+            image={classNineBoy} 
             classTitle={t("class-nine")} 
             shift2={t("nine2")}            
             capacity={t("25-kids")} 
