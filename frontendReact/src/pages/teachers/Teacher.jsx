@@ -1,5 +1,5 @@
 
-import teamImageOne from "/assets/frontend_assets/img/teachers/mitun.png";
+import teamImageOne from "/assets/frontend_assets/img/teachers/mitun.jpeg";
 import teamImageTwo from "/assets/frontend_assets/img/teachers/jannat.png";
 import teamImageThree from "/assets/frontend_assets/img/class/all.png";
 import { useNavigate } from "react-router-dom";

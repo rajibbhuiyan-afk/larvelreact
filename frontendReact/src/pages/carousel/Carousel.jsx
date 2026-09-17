@@ -5,8 +5,9 @@ import 'swiper/css/pagination';
 
 import { Autoplay, Pagination } from 'swiper/modules';
 
-import carosuelImageOne from '/assets/frontend_assets/img/carousel-3.png';
+// import carosuelImageOne from '/assets/frontend_assets/img/carousel-3.png';
 import carosuelImageTwo from '/assets/frontend_assets/img/carousel-1.png';
+import carosuelImageThree from '/assets/frontend_assets/img/carousel-3.jpeg';
 import { useTranslation } from 'react-i18next';
 
 export default function Carousel() {
@@ -27,7 +28,7 @@ export default function Carousel() {
           <div className="position-relative w-100 h-100">
             <img
               className="img-fluid w-100 h-100"
-              src={carosuelImageOne}
+              src={carosuelImageThree}
               alt=""
               style={{ objectFit: 'cover' }}
             />
@@ -38,12 +39,12 @@ export default function Carousel() {
               <div className="container">
                 <div className="row justify-content-start">
                   <div className="col-10 col-lg-8">
-                    <h1 className="display-2  animated slideInDown mb-4  " style={{ color: '#5ce1e6', paddingTop: '170px' }}>
+                    {/* <h1 className="display-2  animated slideInDown mb-4  " style={{ color: '#5ce1e6', paddingTop: '170px' }}>
                       {t('welcome-to-will-power-school')}
                     </h1>
                     <p className="fs-5 fw-medium text-white mb-4 pb-2" style={{ color: '#5ce1e6' }}>
                       {t('will-power-school-is-dedicated-to-providing-high-quality-education')}
-                    </p>
+                    </p> */}
                     {/* <a
                       href="#"
                       className="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft"

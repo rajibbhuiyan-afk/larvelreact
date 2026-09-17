@@ -1,6 +1,6 @@
 {  
-  "157-2-distilary-road-gandaria-dhaka-1204": "১৫৭/২, ডিস্টিলারি রোড, গ্যান্ডারিয়া, ঢাকা-১২০৪",
-  "171-distilary-road-gandaria-dhaka-1204": "১৭১, ডিস্টিলারি রোড, গ্যান্ডারিয়া, ঢাকা-১২০৪",
+  "157-2-distilary-road-gandaria-dhaka-1204": "ক্যাম্পাস ১ - ১৫৭/২, ডিস্টিলারি রোড, গ্যান্ডারিয়া, ঢাকা-১২০৪",
+  "171-distilary-road-gandaria-dhaka-1204": "ক্যাম্পাস ২ - ১৭১, ডিস্টিলারি রোড, গ্যান্ডারিয়া, ঢাকা-১২০৪",
   "5-6-years": "৫-৬ বছর",
   "9-10-am": "৯-১০ এ.এম",
   "10-kids": "১০ জন",
@@ -68,7 +68,7 @@
   "cookies": "কুকিজস",
 
   "class-description": "আমাদের স্কুলের প্রতিটি ক্লাস শিক্ষার্থীদের মানসিক ও বুদ্ধিবৃত্তিক বিকাশে সহায়ক। এখানে পাঠদান করা হয় আধুনিক ও সহজবোধ্য পদ্ধতিতে, যাতে শেখা হয় আনন্দময় ও কার্যকর। সঠিক দিকনির্দেশনা ও যত্নশীল শিক্ষকের তত্ত্বাবধানে শিক্ষার্থীরা গড়ে ওঠে আত্মবিশ্বাসী ও সৃজনশীল।",
-  "comfortable-ac-classrooms-where-learning-is-fun-and-relaxing": "আরামদায়ক এয়ার কন্ডিশনার শ্রেণিকক্ষ যেখানে শেখা হয় মজার ও স্বাচ্ছন্দ্যে।",
+  "comfortable-ac-classrooms-where-learning-is-fun-and-relaxing": "শীতাতপ নিয়ন্ত্রিত শ্রেণিকক্ষে আনন্দ ও স্বাচ্ছন্দ্যে পাঠদান।",
 
   "day":"দিবা",
   "develop-your-creativity-and-skills-and-take-a-step-towards-a-bright-future":"আপনার সৃজনশীলতা ও দক্ষতা গড়ে তুলুন এবং এক উজ্জ্বল ভবিষ্যতের দিকে এগিয়ে চলুন।",
@@ -79,11 +79,12 @@
 
   "educational-equipment-prices": "শিক্ষা উপকরণের মূল্য",
   "error-page": "ত্রুটি পৃষ্ঠা",
+  "eti-sutrdhar": "ইতি সুত্রধর",
 
   "faq": "প্রশ্নোত্তর",
   "faqs": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
   "finger-attendance": "ফিঙ্গার উপস্থিতি",
-  "fingerprint-scanning-records-attendance-safely-and-accurately":"ফিঙ্গারপ্রিন্ট স্ক্যানিং নিরাপদ এবং সঠিকভাবে উপস্থিতি রেকর্ড করে।",
+  "fingerprint-scanning-records-attendance-safely-and-accurately":"নিরাপদ স্ক্যানিং • নির্ভুল উপস্থিতি রেকর্ড",
 
   "get-in-touch": "যোগাযোগ করুন",
 
@@ -125,7 +126,7 @@
 
   "old-student-information": "পুরাতন শিক্ষার্থীর তথ্য",
   "our-classes":"আমাদের ক্লাসসমূহ",
-  "our-school-cctv-ensures-continuous-surveillance-for-students-safety":"আমাদের স্কুলের সিসিটিভি শিক্ষার্থীদের নিরাপত্তার জন্য অবিচ্ছিন্ন নজরদারি নিশ্চিত করে।",
+  "our-school-cctv-ensures-continuous-surveillance-for-students-safety":"শিক্ষার্থীদের নিরাপত্তায় সার্বক্ষণিক সিসিটিভি নজরদারি।",
   "our-school-projector-makes-learning-fun-and-effective":"আমাদের স্কুলের প্রজেক্টর শেখাকে মজার এবং কার্যকর করে তোলে।",
   "our-school-provides-all-modern-facilities-to-ensure-the-overall-development-of-students-and-a-safe-environment":"আমাদের বিদ্যালয়ে শিক্ষার্থীদের সার্বিক উন্নতি এবং নিরাপদ পরিবেশ নিশ্চিত করতে আধুনিক সব সুবিধা প্রদান করা হয়েছে।",
   
@@ -136,6 +137,7 @@
   
   "rabea-alamgir": "রাবেয়া আলমগীর",
   "rita-khatun": "রিতা খাতুন",
+  "rehena-akter-opi": "রেহেনা আক্তার অপি",
   "rupon-dey": "রুপন দে",
 
   "salary": "বেতন",
