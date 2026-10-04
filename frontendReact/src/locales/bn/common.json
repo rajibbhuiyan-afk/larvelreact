@@ -88,6 +88,7 @@
 
   "get-in-touch": "যোগাযোগ করুন",
 
+  "hand-ledger-book": "হাতের লেখা বই",
   "head-teacher": "প্রধান শিক্ষক",
   "help": "সাহায্য",
   "home": "হোম",  
@@ -117,14 +118,13 @@
 
   "nasima-khan": "নাসিমা খান",
   "nasrin-akter": "নাসরিন আক্তার",
-  "new-student-information": "নতুন শিক্ষার্থীর তথ্য",
+  "student-new-admission-information": "শিক্ষার্থী নতুন ভর্তি তথ্য",
   "nironjona-ghosh-proma": "নিরঞ্জনা ঘোষ প্রমা",
   "notice": "নোটিশ",
   "notice-board": "নোটিশ বোর্ড",
   "notice-board-text":"উইল পাওয়ার স্কুলের সর্বশেষ ঘোষণা ও গুরুত্বপূর্ণ তথ্য এখানেই প্রকাশিত হয়। নিয়মিত দেখে আপডেট থাকুন।",
   "number-of-seats": "আসন সংখ্যা",
 
-  "old-student-information": "পুরাতন শিক্ষার্থীর তথ্য",
   "our-classes":"আমাদের ক্লাসসমূহ",
   "our-school-cctv-ensures-continuous-surveillance-for-students-safety":"শিক্ষার্থীদের নিরাপত্তায় সার্বক্ষণিক সিসিটিভি নজরদারি।",
   "our-school-projector-makes-learning-fun-and-effective":"আমাদের স্কুলের প্রজেক্টর শেখাকে মজার এবং কার্যকর করে তোলে।",
@@ -142,10 +142,13 @@
 
   "salary": "বেতন",
   "school-facilities":"বিদ্যালয়ের সুবিধাসমূহ",
+  "session-fee": "সেশন ফি",
+  "shahina-akter": "শাহিনা আক্তার",
   "sharmin-akter-jothi": "শারমিন আক্তার জুথি",
   "sharmin-akter": "শারমিন আক্তার",
   "shift": "শিফট",
   "sinior-assistant-teacher": "সিনিয়র সহকারী শিক্ষক",
+  "student-again-admission-information": "শিক্ষার্থী পুনঃ ভর্তি তথ্য",
   "sports":"খেলাধুলা",
   "syllabus":"সিলেবাস",
 

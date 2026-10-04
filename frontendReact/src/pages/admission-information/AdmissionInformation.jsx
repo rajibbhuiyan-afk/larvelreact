@@ -29,7 +29,7 @@ export default function AdmissionInformation() {
 
           <div className="row g-0">            
             <div className="col-lg-6 p-lg-5 p-0 pt-3">
-              <h2 className="mb-4 d-flex justify-content-center">{t('new-student-information')}</h2>
+              <h2 className="mb-4 d-flex justify-content-center">{t('student-new-admission-information')}</h2>
               <table className="table table-bordered table-striped">
                 <thead>
                   
@@ -37,26 +37,27 @@ export default function AdmissionInformation() {
                     <th className="text-center">{t('class')}</th>
                     <th className="text-center">{t('admission-form')}</th>                    
                     <th className="text-center">{t('admission-fee')}</th>
+                    <th className="text-center">{t('session-fee')}</th>
                     <th className="text-center">{t('total-fee')}</th>
                     <th className="text-center">{t('salary')}</th>
                   </tr>
                 </thead>
                 <tbody>
                     
-                  <NewStudentClassInformation classValue={t("class-pre-play")} admissionForm={200} admissionFee={6000} totalFee={6200} salary={1000} />
-                  <NewStudentClassInformation classValue={t("class-play")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-nursery")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-kg")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-one")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-two")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-three")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-four")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-five")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-six")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-seven")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-eight")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-nine")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
-                  <NewStudentClassInformation classValue={t("class-ten")} admissionForm={200} admissionFee={5500} totalFee={5700} salary={800} />
+                  <NewStudentClassInformation classValue={t("class-pre-play")} admissionForm={200} admissionFee={4000} sessionFee={2500} totalFee={6700} salary={1200} />
+                  <NewStudentClassInformation classValue={t("class-play")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-nursery")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-kg")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-one")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-two")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-three")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-four")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-five")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-six")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-seven")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-eight")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-nine")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-ten")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
                  
                  
                 
@@ -65,32 +66,33 @@ export default function AdmissionInformation() {
               </table>
             </div>
             <div className="col-lg-6 p-lg-5 p-0 pt-3 ">
-              <h2 className="mb-4 d-flex justify-content-center">{t('old-student-information')}</h2>
+              <h2 className="mb-4 d-flex justify-content-center">{t('student-again-admission-information')}</h2>
               <table className="table table-bordered table-striped">
                 <thead>
                 
                   <tr>
                     <th className="text-center">{t('class')}</th>
                     <th className="text-center">{t('admission-fee')}</th>                    
+                    <th className="text-center">{t('session-fee')}</th>
                     <th className="text-center">{t('total-fee')}</th>
                     <th className="text-center">{t('salary')}</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <OldStudentClassInformation classValue={t("class-pre-play")} admissionFee={"-"} totalFee={"-"} salary={"-"} />
-                  <OldStudentClassInformation classValue={t("class-play")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-nursery")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-kg")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-one")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-two")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-three")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-four")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-five")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-six")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-seven")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-eight")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-nine")} admissionFee={4500} totalFee={4500} salary={800} />
-                  <OldStudentClassInformation classValue={t("class-ten")} admissionFee={4500} totalFee={4500} salary={800} />            
+                  <OldStudentClassInformation classValue={t("class-pre-play")} admissionFee={"-"} sessionFee={"-"} totalFee={"-"} salary={"-"} />
+                  <OldStudentClassInformation classValue={t("class-play")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-nursery")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-kg")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-one")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-two")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-three")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-four")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={900} />
+                  <OldStudentClassInformation classValue={t("class-five")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />
+                  <OldStudentClassInformation classValue={t("class-six")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />
+                  <OldStudentClassInformation classValue={t("class-seven")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />
+                  <OldStudentClassInformation classValue={t("class-eight")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />
+                  <OldStudentClassInformation classValue={t("class-nine")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />
+                  <OldStudentClassInformation classValue={t("class-ten")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />            
                 </tbody>
               </table>
             </div>
@@ -105,10 +107,11 @@ export default function AdmissionInformation() {
                     <th className="text-center">{t('diary')}</th>
                     <th className="text-center">{t('syllabus')}</th>
                     <th className="text-center">{t('tie')}</th>
-                    <th className="text-center">{t('payBook')}</th>                    
+                    <th className="text-center">{t('payBook')}</th> 
+                    <th className="text-center">{t('sports')}</th>                   
                     <th className="text-center">{t('bach')}</th>  
                     <th className="text-center">{t('idCard')}</th>
-                    <th className="text-center">{t('sports')}</th>
+                    <th className="text-center">{t('hand-ledger-book')}</th>
                     <th className="text-center">{t('total-fee')}</th>
                   </tr>
                 </thead>
@@ -117,183 +120,197 @@ export default function AdmissionInformation() {
                   classValue={t("class-pre-play")} 
                   book={170} 
                   ledger={160} 
-                  diary={120} 
+                  diary={150} 
                   syllabus={50}
-                  tie={120}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1170} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1430} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-play")} 
                   book={t("pending")} 
-                  ledger={560} 
-                  diary={120} 
+                  ledger={280} 
+                  diary={150} 
                   syllabus={50}
-                  tie={120}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1400} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1380} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-nursery")} 
                   book={t("pending")} 
-                  ledger={560} 
-                  diary={120} 
+                  ledger={280} 
+                  diary={150} 
                   syllabus={50}
-                  tie={120}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1400} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1380} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-kg")} 
                   book={t("pending")} 
-                  ledger={600} 
-                  diary={120} 
+                  ledger={400} 
+                  diary={150} 
                   syllabus={50}
-                  tie={120}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1440} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1500} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-one")} 
                   book={t("pending")} 
-                  ledger={680} 
-                  diary={120} 
+                  ledger={400} 
+                  diary={150} 
                   syllabus={50}
-                  tie={120}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1520} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1500} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-two")} 
                   book={t("pending")} 
-                  ledger={720} 
-                  diary={120} 
+                  ledger={520} 
+                  diary={150} 
                   syllabus={50}
-                  tie={120}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1560} 
+                  bach={50}
+                  idCard={200}                 
+                  handLedgerBook={200}
+                  totalFee={1620} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-three")} 
                   book={t("pending")} 
-                  ledger={840} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={625} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1590} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1735} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-four")} 
                   book={t("pending")} 
-                  ledger={840} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={625} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1590} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1735} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-five")} 
                   book={t("pending")} 
                   ledger={540} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1390} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1650} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-six")} 
                   book={t("pending")} 
-                  ledger={900} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={630} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1750} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1740} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-seven")} 
                   book={t("pending")} 
-                  ledger={900} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={630} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1750} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1740} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-eight")} 
                   book={t("pending")} 
-                  ledger={900} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={630} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1750} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1740} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-nine")} 
                   book={t("pending")} 
-                  ledger={900} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={630} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1750} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1740} 
                   />
                   <EducationalEquipmentPrices
                   classValue={t("class-ten")} 
                   book={t("pending")} 
-                  ledger={900} 
-                  diary={120} 
-                  syllabus={50}
-                  tie={120}
+                  ledger={630} 
+                  diary={150} 
+                  syllabus={60}
+                  tie={150}
                   payBook={50}
-                  bach={50}
-                  idCard={200}
                   sports={250}
-                  totalFee={1750} 
+                  bach={50}
+                  idCard={200}                  
+                  handLedgerBook={200}
+                  totalFee={1740} 
                   />                            
                 </tbody>
               </table>

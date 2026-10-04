@@ -88,6 +88,7 @@
 
   "get-in-touch": "Get In Touch",
 
+  "hand-ledger-book": "Hand Ledger Book",
   "head-teacher": "Head Teacher",
   "help": "Help",
   "home": "Home",
@@ -117,7 +118,8 @@
 
   "nasima-khan": "Nasima Khan",
   "nasrin-akter": "Nasrin Akter",
-  "new-student-information": "New Student Information",
+  "student-new-admission-information": "Student New Admission Information",
+  "student-again-admission-information": "Student Again Admission Information",
   "nironjona-ghosh-proma": "Nironjona Ghosh Proma",
   "notice": "Notice",
   "notice-board": "Notice Board",
@@ -142,6 +144,8 @@
 
   "salary": "Salary",
   "school-facilities":"School Facilities",
+  "session-fee": "Session Fee",
+  "shahina-akter": "Shahina Akter",
   "sharmin-akter-jothi": "Sharmin Akter Jothi",
   "sharmin-akter": "Sharmin Akter",
   "shift": "Shift",
