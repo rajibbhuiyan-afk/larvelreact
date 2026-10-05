@@ -41,12 +41,19 @@ export default function TeacherList() {
         </div>
           <div className="row g-4">
 
-             <SingleTeacher 
-              teacherName={t('sharmin-akter-jothi')} 
+
+            <SingleTeacher 
+              teacherName={t('kabi-mowshumi-mow')} 
+              teacherDesignation={t('music-teacher')} 
+              teacherImage={kabiMowshumiMow}  
+              educationalQualification={t('-')}
+            /> 
+            <SingleTeacher 
+              teacherName={t('bonhi-shikha-das')} 
               teacherDesignation={t('assistant-teacher')} 
-              teacherImage={sharminAkterJothi}  
-              educationalQualification={t('Degree in BSS ')}
-            />  
+              teacherImage={bonhiShikhaDas}  
+              educationalQualification={t('-')}
+            />
             <SingleTeacher 
               teacherName={t('mitu-rani-halder')} 
               teacherDesignation={t('sinior-assistant-teacher')} 
@@ -54,39 +61,81 @@ export default function TeacherList() {
               educationalQualification={t('-')}
             />
             <SingleTeacher 
+              teacherName={t('rita-khatun')} 
+              teacherDesignation={t('assistant-teacher')} 
+              teacherImage={ritaKhatun}  
+              educationalQualification={t('-')}
+            /> 
+            <SingleTeacher 
               teacherName={t('rabea-alamgir')} 
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={rabeaAlamgir}  
               educationalQualification={t('-')}
             />  
             <SingleTeacher 
-              teacherName={t('rita-khatun')} 
+              teacherName={t('abdul-aziz-shekh')} 
               teacherDesignation={t('assistant-teacher')} 
-              teacherImage={ritaKhatun}  
+              teacherImage={abdulAzizShekh}  
               educationalQualification={t('-')}
+            />
+            <SingleTeacher 
+              teacherName={t('shakil-ahmmed')} 
+              teacherDesignation={t('assistant-teacher')} 
+              teacherImage={shakilAhmmed}  
+              educationalQualification={t('-')}
+            />
+            <SingleTeacher 
+              teacherName={t('afsana-mimi')} 
+              teacherDesignation={t('assistant-teacher')} 
+              teacherImage={afsanaMimi}  
+              educationalQualification={t('-')}
+            />
+             <SingleTeacher 
+              teacherName={t('abu-taher-mollah')} 
+              teacherDesignation={t('assistant-teacher')} 
+              teacherImage={abuTaherMollah}  
+              educationalQualification={t('-')}
+            /> 
+            <SingleTeacher 
+              teacherName={t('sharmin-akter-jothi')} 
+              teacherDesignation={t('assistant-teacher')} 
+              teacherImage={sharminAkterJothi}  
+              educationalQualification={t('Degree in BSS ')}
             />  
             <SingleTeacher 
-              teacherName={t('rehena-akter-opi')} 
+              teacherName={t('tamanna-akter')} 
               teacherDesignation={t('assistant-teacher')} 
-              teacherImage={rehenaAkterOpi}  
-              educationalQualification={t('-')}
-            />  
-            <SingleTeacher 
+              teacherImage={tamannaAkter}  
+              educationalQualification={t('Honours')}
+            />
+             <SingleTeacher 
               teacherName={t('eti-sutrdhar')} 
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={etiSutrdhar}  
               educationalQualification={t('-')}
             />  
             <SingleTeacher 
+              teacherName={t('rezwana-karim-eshita')} 
+              teacherDesignation={t('drawing-teacher')} 
+              teacherImage={rezwanaKarimEshita} 
+              educationalQualification={t('-')}
+            />
+            <SingleTeacher 
+              teacherName={t('nasrin-akter-sharmin')} 
+              teacherDesignation={t('assistant-teacher')} 
+              teacherImage={nasrinAkterSharmin}  
+              educationalQualification={t('-')}
+            />
+             <SingleTeacher 
               teacherName={t('rupon-dey')} 
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={ruponDey}  
               educationalQualification={t('MSC')}
-            />  
+            />
             <SingleTeacher 
-              teacherName={t('afsana-mimi')} 
+              teacherName={t('rehena-akter-opi')} 
               teacherDesignation={t('assistant-teacher')} 
-              teacherImage={afsanaMimi}  
+              teacherImage={rehenaAkterOpi}  
               educationalQualification={t('-')}
             />
             <SingleTeacher 
@@ -94,18 +143,6 @@ export default function TeacherList() {
               teacherDesignation={t('drawing-teacher')} 
               teacherImage={aloRaniSaha} 
               educationalQualification={t('-')}
-            />
-            <SingleTeacher 
-              teacherName={t('rezwana-karim-eshita')} 
-              teacherDesignation={t('drawing-teacher')} 
-              teacherImage={rezwanaKarimEshita} 
-              educationalQualification={t('-')}
-            />
-             <SingleTeacher 
-              teacherName={t('tamanna-akter')} 
-              teacherDesignation={t('assistant-teacher')} 
-              teacherImage={tamannaAkter}  
-              educationalQualification={t('Honours')}
             /> 
             <SingleTeacher 
               teacherName={t('nironjona-ghosh-proma')} 
@@ -124,13 +161,7 @@ export default function TeacherList() {
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={shamsunNahar}  
               educationalQualification={t('-')}
-            />
-            <SingleTeacher 
-              teacherName={t('abdul-aziz-shekh')} 
-              teacherDesignation={t('assistant-teacher')} 
-              teacherImage={abdulAzizShekh}  
-              educationalQualification={t('-')}
-            />
+            />            
             <SingleTeacher 
               teacherName={t('mansura-begum-baby')} 
               teacherDesignation={t('assistant-teacher')} 
@@ -142,25 +173,7 @@ export default function TeacherList() {
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={marufaDelower}  
               educationalQualification={t('-')}
-            />
-            <SingleTeacher 
-              teacherName={t('nasrin-akter-sharmin')} 
-              teacherDesignation={t('assistant-teacher')} 
-              teacherImage={nasrinAkterSharmin}  
-              educationalQualification={t('-')}
-            />
-            <SingleTeacher 
-              teacherName={t('bonhi-shikha-das')} 
-              teacherDesignation={t('assistant-teacher')} 
-              teacherImage={bonhiShikhaDas}  
-              educationalQualification={t('-')}
-            />
-            <SingleTeacher 
-              teacherName={t('shakil-ahmmed')} 
-              teacherDesignation={t('assistant-teacher')} 
-              teacherImage={shakilAhmmed}  
-              educationalQualification={t('-')}
-            />
+            /> 
             <SingleTeacher 
               teacherName={t('sanjida-alam')} 
               teacherDesignation={t('assistant-teacher')} 
@@ -172,19 +185,7 @@ export default function TeacherList() {
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={humairaNazmun}  
               educationalQualification={t('-')}
-            />
-            <SingleTeacher 
-              teacherName={t('abu-taher-mollah')} 
-              teacherDesignation={t('assistant-teacher')} 
-              teacherImage={abuTaherMollah}  
-              educationalQualification={t('-')}
-            />   
-            <SingleTeacher 
-              teacherName={t('kabi-mowshumi-mow')} 
-              teacherDesignation={t('music-teacher')} 
-              teacherImage={kabiMowshumiMow}  
-              educationalQualification={t('-')}
-            />        
+            />  
             <SingleTeacher 
               teacherName={t('nasrin-akter')} 
               teacherDesignation={t('assistant-teacher')} 

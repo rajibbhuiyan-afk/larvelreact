@@ -1,7 +1,7 @@
 
 import teamImageOne from "/assets/frontend_assets/img/teachers/mitun.jpeg";
 import teamImageTwo from "/assets/frontend_assets/img/teachers/jannat.png";
-import teamImageThree from "/assets/frontend_assets/img/class/all.png";
+import teamImageThree from "/assets/frontend_assets/img/teachers/tajbin-bhuiyan.png";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
