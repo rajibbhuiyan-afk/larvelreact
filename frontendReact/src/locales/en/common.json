@@ -71,12 +71,13 @@
   "contact-us": "Contact Us",
   "cookies": "Cookies",
 
-  "class-description": "Each of our school classes is designed to support students' mental and intellectual development. Lessons are conducted in a modern and easy-to-understand way, making learning enjoyable and effective. Under proper guidance and the care of dedicated teachers, students grow to be confident and creative.",
+  "class-description": "Each of our school classes is designed to support students' mental and intellectual development. Under proper guidance and the care of dedicated teachers, students grow to be confident and creative.",
   "comfortable-ac-classrooms-where-learning-is-fun-and-relaxing": "Teaching conducted with joy and comfort in air-conditioned classrooms.",
 
   "day":"Day",
   "develop-your-creativity-and-skills-and-take-a-step-towards-a-bright-future":"Develop your creativity and skills, and take a step towards a bright future.",
   "diary":"Diary",
+  "digital-attendance": "Digital Attendance",
   "dinner": "Dinner",
   "doctor": "Doctor",
   "drawing-teacher": "Drawing Teacher",
@@ -86,8 +87,7 @@
   "eti-sutrdhar": "Eti Sutrdhar",
   
   "faq": "FAQ",
-  "faqs": "FAQ",
-  "finger-attendance": "Finger Attendance",
+  "faqs": "FAQ",  
   "fingerprint-scanning-records-attendance-safely-and-accurately":"Secure Scanning • Accurate Attendance Records",
 
   "get-in-touch": "Get In Touch",
@@ -139,7 +139,7 @@
   "our-classes":"Our Classes",
   "our-school-cctv-ensures-continuous-surveillance-for-students-safety":"Round-the-clock CCTV surveillance for student safety.",
   "our-school-projector-makes-learning-fun-and-effective":"Our school projector makes learning fun and effective.",
-  "our-school-provides-all-modern-facilities-to-ensure-the-overall-development-of-students-and-a-safe-environment":"Our school provides all modern facilities to ensure the overall development of students and a safe environment.",    
+
   
   "pages":"Pages",
   "payBook":"Pay Book",
@@ -184,7 +184,8 @@
   "useful-links":"Useful Links",
 
   "welcome-to-will-power-school":"Welcome to Will Power School",
-  "will-power-school-is-dedicated-to-providing-high-quality-education":"Will Power School is dedicated to providing high-quality education..."
-  }
+  "will-power-school-is-dedicated-to-providing-high-quality-education":"Will Power School is dedicated to providing high-quality education...",
+  "we-offer-modern-and-well-equipped-facilities-to-ensure-the-overall-development-and-utmost-safety-of-our-students.":"We offer modern and well-equipped facilities to ensure the overall development and utmost safety of our students."
+}
   
   

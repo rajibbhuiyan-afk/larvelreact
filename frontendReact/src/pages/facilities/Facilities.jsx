@@ -32,7 +32,7 @@ export default function Facilities() {
     {
       icon: 'fa-fingerprint',
       iconBg: 'bg-info',
-      title: t('finger-attendance'),
+      title: t('digital-attendance'),
       text: t('fingerprint-scanning-records-attendance-safely-and-accurately'),
       textColor: 'text-info',
     },
@@ -47,7 +47,7 @@ export default function Facilities() {
           style={{ maxWidth: '600px' }}
         >
           <h1 className="mb-3">{t('school-facilities')}</h1>
-          <p>{t('our-school-provides-all-modern-facilities-to-ensure-the-overall-development-of-students-and-a-safe-environment')}</p>
+          <p>{t('we-offer-modern-and-well-equipped-facilities-to-ensure-the-overall-development-and-utmost-safety-of-our-students.')}</p>
         </div>
 
         <div className="row g-4">
