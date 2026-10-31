@@ -28,7 +28,7 @@ export default function AdmissionInformation() {
 
 
           <div className="row g-0">            
-            <div className="col-lg-6 p-lg-5 p-0 pt-3">
+            <div className="col-lg-12 p-lg-12 p-0 pt-3">
               <h2 className="mb-4 d-flex justify-content-center">{t('student-new-admission-information')}</h2>
               <table className="table table-bordered table-striped">
                 <thead>
@@ -65,7 +65,7 @@ export default function AdmissionInformation() {
                 </tbody>
               </table>
             </div>
-            <div className="col-lg-6 p-lg-5 p-0 pt-3 ">
+            {/* <div className="col-lg-6 p-lg-5 p-0 pt-3 ">
               <h2 className="mb-4 d-flex justify-content-center">{t('student-again-admission-information')}</h2>
               <table className="table table-bordered table-striped">
                 <thead>
@@ -95,7 +95,7 @@ export default function AdmissionInformation() {
                   <OldStudentClassInformation classValue={t("class-ten")} admissionFee={3500} sessionFee={2500} totalFee={6000} salary={1000} />            
                 </tbody>
               </table>
-            </div>
+            </div> */}
             <div className="col-lg-12 p-lg-5 p-0 pt-3 table-responsive">
               <h2 className="mb-4 d-flex justify-content-center">{t('educational-equipment-prices')}</h2>             
               <table className="table table-bordered table-striped">

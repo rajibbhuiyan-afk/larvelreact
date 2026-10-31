@@ -77,12 +77,12 @@ export default function Header({ isLoggedIn, setIsLoggedIn }) {
 
   return (
     
-    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-2 px-lg-5 py-lg-0">
       <div className="container">
       <NavLink to="/" className="navbar-brand">
-        <h1 className="m-0 text-primary">
+        <h1 className="school-name m-0 text-primary">
           <img src={logo} alt="Will Power School" width="45" height="45" />
-          &nbsp;WPS
+          &nbsp;Will Power School
         </h1>
       </NavLink>
       <button

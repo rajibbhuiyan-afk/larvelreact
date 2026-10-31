@@ -512,3 +512,9 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+@media (max-width: 575.98px) {
+    .school-name {
+        font-size: 1.25rem;
+    }
+}

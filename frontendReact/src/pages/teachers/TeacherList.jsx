@@ -27,6 +27,7 @@ import shakilAhmmed from '/assets/frontend_assets/img/teachers/shakil-ahmmed.png
 import sanjidaAlam from '/assets/frontend_assets/img/teachers/sanjida-alam.png';
 import humairaNazmun from '/assets/frontend_assets/img/teachers/humaira-nazmun.png';
 import abuTaherMollah from '/assets/frontend_assets/img/teachers/abu-taher-mollah.png';
+import Teacher from "./Teacher";
 
 
 export default function TeacherList() {
@@ -36,9 +37,10 @@ export default function TeacherList() {
     <div className="container-xxl py-5">
       <div className="container">
         <div className="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '600px' }}>
-          <h1 className="mb-3">{t('all-teachers-list')}</h1>
+          <h1 className="mb-3">{t('our-teaching-staff')}</h1>
           <p>{t('all-teachers-description')}</p>
         </div>
+        <Teacher />
           <div className="row g-4">
 
 
