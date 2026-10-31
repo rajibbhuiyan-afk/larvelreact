@@ -104,8 +104,11 @@ export default function Header({ isLoggedIn, setIsLoggedIn }) {
           <NavLink to="/notice" className="nav-item nav-link">
            {t('notice')}
           </NavLink>
-          <NavLink to="/homework" className="nav-item nav-link">
+          {/* <NavLink to="/homework" className="nav-item nav-link">
             {t('homework')}
+          </NavLink> */}
+          <NavLink to="/admission-information" className="nav-item nav-link">
+            {t('admission-information')}
           </NavLink>
 
           <div className="nav-item dropdown">
@@ -128,9 +131,9 @@ export default function Header({ isLoggedIn, setIsLoggedIn }) {
               <NavLink to="/teachers" className="dropdown-item">
                 {t('teachers')}
               </NavLink>
-              <NavLink to="/appointment" className="dropdown-item">
+              {/* <NavLink to="/appointment" className="dropdown-item">
                 {t('appointment')}
-              </NavLink>
+              </NavLink> */}
               <NavLink to="/aboutus" className="dropdown-item">
                 {t('about-us')}
               </NavLink>
