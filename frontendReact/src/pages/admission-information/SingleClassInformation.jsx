@@ -5,13 +5,13 @@ const number = PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequi
 
 // New Student Class Information Component
 export function NewStudentClassInformation(props) {
-  const { classValue, admissionForm, admissionFee, sessionFee, salary, totalFee } = props;
+  const { classValue, admissionForm, sessionFee, admissionFee,  salary, totalFee } = props;
   return (
     <tr>
       <td className="text-center fw-bold">{classValue}</td>
       <td className="text-center">{admissionForm}</td>
-      <td className="text-center">{admissionFee}</td>
       <td className="text-center">{sessionFee}</td>
+      <td className="text-center">{admissionFee}</td>
       <td className="text-center fw-bold">{totalFee}</td>
       <td className="text-center">{salary}</td>
     </tr>
@@ -29,12 +29,12 @@ NewStudentClassInformation.propTypes = {
 
 // Old Student Class Information Component
 export function OldStudentClassInformation(props) {
-  const { classValue, admissionFee, sessionFee, totalFee, salary } = props;
+  const { classValue, sessionFee, admissionFee,  totalFee, salary } = props;
   return (
     <tr>
       <td className="text-center fw-bold">{classValue}</td>
+      <td className="text-center">{sessionFee }</td>
       <td className="text-center">{admissionFee}</td>
-      <td className="text-center">{sessionFee}</td>
       <td className="text-center fw-bold">{totalFee}</td>
       <td className="text-center">{salary}</td>
     </tr>

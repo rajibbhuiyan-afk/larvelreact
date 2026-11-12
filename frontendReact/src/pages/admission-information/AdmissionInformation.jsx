@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { EducationalEquipmentPrices, NewStudentClassInformation, OldStudentClassInformation } from "./SingleClassInformation";
+import { EducationalEquipmentPrices, NewStudentClassInformation } from "./SingleClassInformation";
 
 
 export default function AdmissionInformation() {
@@ -35,29 +35,29 @@ export default function AdmissionInformation() {
                   
                   <tr>
                     <th className="text-center">{t('class')}</th>
-                    <th className="text-center">{t('admission-form')}</th>                    
-                    <th className="text-center">{t('admission-fee')}</th>
+                    <th className="text-center">{t('admission-form')}</th>
                     <th className="text-center">{t('session-fee')}</th>
+                    <th className="text-center">{t('admission-fee')}</th>
                     <th className="text-center">{t('total-fee')}</th>
                     <th className="text-center">{t('salary')}</th>
                   </tr>
                 </thead>
                 <tbody>
                     
-                  <NewStudentClassInformation classValue={t("class-pre-play")} admissionForm={200} admissionFee={4000} sessionFee={2500} totalFee={6700} salary={1200} />
-                  <NewStudentClassInformation classValue={t("class-play")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-nursery")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-kg")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-one")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-two")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-three")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-four")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={900} />
-                  <NewStudentClassInformation classValue={t("class-five")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
-                  <NewStudentClassInformation classValue={t("class-six")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
-                  <NewStudentClassInformation classValue={t("class-seven")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
-                  <NewStudentClassInformation classValue={t("class-eight")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
-                  <NewStudentClassInformation classValue={t("class-nine")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
-                  <NewStudentClassInformation classValue={t("class-ten")} admissionForm={200} admissionFee={3500} sessionFee={2500} totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-pre-play")} admissionForm={200} sessionFee={3000} admissionFee={3500}  totalFee={6700} salary={1200} />
+                  <NewStudentClassInformation classValue={t("class-play")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-nursery")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-kg")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-one")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-two")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-three")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-four")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={900} />
+                  <NewStudentClassInformation classValue={t("class-five")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-six")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-seven")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-eight")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-nine")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={1000} />
+                  <NewStudentClassInformation classValue={t("class-ten")} admissionForm={200} sessionFee={3500} admissionFee={2500}  totalFee={6200} salary={1000} />
                  
                  
                 
