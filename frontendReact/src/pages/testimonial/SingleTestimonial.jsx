@@ -26,8 +26,6 @@ export default function SingleTestimonial({ image, text, name, profession }) {
       className="testimonial-item bg-light rounded p-lg-3 p-2 d-flex flex-column justify-content-between"
       style={{ height: "300px" }}
     >
-      <p className="fs-5 mb-2 mb-sm-4">{truncateText(text, textlimit)}</p>
-
       <div
         className="d-flex align-items-center bg-white me-n5 mt-n2 mt-sm-0"
         style={{ borderRadius: "50px 0 0 50px" }}
@@ -43,6 +41,8 @@ export default function SingleTestimonial({ image, text, name, profession }) {
           <span>{profession}</span>
         </div>
       </div>
+
+      <p className="fs-5 mb-2 mb-sm-4">{truncateText(text, textlimit)}</p>
     </div>
   );
 }

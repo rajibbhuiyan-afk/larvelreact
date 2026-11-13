@@ -84,7 +84,7 @@ export default function TeacherList() {
               teacherName={t('shakil-ahmmed')} 
               teacherDesignation={t('assistant-teacher')} 
               teacherImage={shakilAhmmed}  
-              educationalQualification={t('-')}
+              educationalQualification={t('MBA in Accounting')}
             />
             <SingleTeacher 
               teacherName={t('afsana-mimi')} 
