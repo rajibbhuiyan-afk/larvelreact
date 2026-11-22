@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from "react-router-dom";
-import { events } from "./Event";
+import { events } from "./events";
 import "./event.css";
 
 export default function EventDetails() {
