@@ -18,7 +18,7 @@ export default function Home() {
       {/* <Aboutus /> */}
       <Classes />
       {/* <Appointment /> */}
-      <Teacher />
+      {/* <Teacher /> */}
       <Testimonial />
 
     </div>

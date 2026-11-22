@@ -19,7 +19,7 @@ export default function Teacher() {
                 <div
                     style={{ cursor: 'pointer' }}
                     className="team-text text-center"
-                    onClick={() => navigate('/teacher-profile')}
+                    // onClick={() => navigate('/teacher-profile')}
                   >
                   <h3>{t('mitun-mazumder')}</h3>
                   <p>{t('head-teacher')}</p>                 
@@ -34,7 +34,7 @@ export default function Teacher() {
                  <div
                     style={{ cursor: 'pointer'}}
                     className="team-text text-center"
-                    onClick={() => navigate('/teacher-profile')}
+                    // onClick={() => navigate('/teacher-profile')}
                   >
                   <h3>{t('jannatul-ferdous')}</h3>
                   <p>{t('in-charge')}</p>                
@@ -47,7 +47,7 @@ export default function Teacher() {
                  <div
                     style={{ cursor: 'pointer' ,  }}
                     className="team-text text-center"
-                    onClick={() => navigate('/teacher-profile')}
+                    // onClick={() => navigate('/teacher-profile')}
                   >
                   <h3>{t('tajbin-bhuiyan')}</h3>
                   <p>{t('in-charge')}</p>             
