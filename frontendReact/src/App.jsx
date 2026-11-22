@@ -27,6 +27,8 @@ import ForgetPassword from "./pages/profile/ForgetPassword";
 import ResetPassword from "./pages/profile/ResetPassword";
 import SetPassword from "./pages/profile/SetPassword";
 import Analytics from "./layout/Analytics";
+import Event from "./pages/event/event";
+import EventDetails from "./pages/event/EventDetails";
 
 
 
@@ -84,6 +86,8 @@ function App() {
       <ConditionalLayout isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/events" element={<Event />} />
+          <Route path="/events/:slug" element={<EventDetails />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/facilities" element={<Facilities />} />

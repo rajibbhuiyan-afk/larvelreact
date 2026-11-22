@@ -1,54 +1,114 @@
-// ...existing code...
+import { Link } from "react-router-dom";
+import "./event.css";
 
+export const events = [
+  {
+    slug: "shaheed-dibosh",
+    title: "শহীদ দিবস",
+    category: "জাতীয় অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-3.jpeg",
+    description:
+      "ভাষা শহীদদের স্মরণে শিক্ষার্থীরা শ্রদ্ধা নিবেদন করে এবং ভাষা আন্দোলনের ইতিহাস ও বাংলা ভাষার মর্যাদা সম্পর্কে জানতে পারে।",
+  },
+  {
+    slug: "independence-day",
+    title: "স্বাধীনতা দিবস",
+    category: "জাতীয় অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-3.jpeg",
+    description:
+      "স্বাধীনতা দিবসে শিক্ষার্থীরা বাংলাদেশের ইতিহাস, মুক্তিযুদ্ধ এবং স্বাধীনতার তাৎপর্য স্মরণ করে।",
+  },
+  {
+    slug: "bangla-new-year",
+    title: "বাংলা নববর্ষ",
+    category: "জাতীয় অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-5.png",
+    description:
+      "বাংলা নববর্ষকে স্বাগত জানাতে শিক্ষার্থীরা বাংলা সংস্কৃতি ও ঐতিহ্যভিত্তিক আনন্দমুখর আয়োজনে অংশ নেয়।",
+  },
+  {
+    slug: "victory-day",
+    title: "বিজয় দিবস",
+    category: "জাতীয় অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-3.jpeg",
+    description:
+      "বিজয় দিবসে শিক্ষার্থীরা মুক্তিযুদ্ধের ইতিহাস ও বীর শহীদদের অবদান স্মরণ করে।",
+  },
+  {
+    slug: "book-festival",
+    title: "বই উৎসব",
+    category: "প্রাতিষ্ঠানিক অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-1.jpg",
+    description:
+      "নতুন শিক্ষাবর্ষে শিক্ষার্থীদের হাতে নতুন বই তুলে দিয়ে পড়াশোনার প্রতি আগ্রহী করে তোলা হয়।",
+  },
+  {
+    slug: "annual-sports",
+    title: "বার্ষিক ক্রীড়া প্রতিযোগিতা",
+    category: "প্রাতিষ্ঠানিক অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/classes-2.jpg",
+    description:
+      "বার্ষিক ক্রীড়া প্রতিযোগিতায় শিক্ষার্থীরা বিভিন্ন খেলাধুলায় অংশ নিয়ে দলগত মনোভাব ও আনন্দ ভাগ করে নেয়।",
+  },
+  {
+    slug: "study-tour",
+    title: "শিক্ষা সফর",
+    category: "প্রাতিষ্ঠানিক অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-3.jpeg",
+    description:
+      "শিক্ষা সফরে শ্রেণিকক্ষের বাইরের পরিবেশ থেকে শেখার এবং সহপাঠীদের সঙ্গে অভিজ্ঞতা ভাগ করার সুযোগ তৈরি হয়।",
+  },
+  {
+    slug: "scholarship-exam",
+    title: "বৃত্তি পরীক্ষা",
+    category: "প্রাতিষ্ঠানিক অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/about-3.jpg",
+    description:
+      "বৃত্তি পরীক্ষার মাধ্যমে শিক্ষার্থীরা নিজেদের প্রস্তুতি ও অর্জিত জ্ঞান যাচাই করার সুযোগ পায়।",
+  },
+  {
+    slug: "class-party",
+    title: "ক্লাস পার্টি",
+    category: "প্রাতিষ্ঠানিক অনুষ্ঠান",
+    image: "/assets/frontend_assets/img/carousel-2.jpg",
+    description:
+      "ক্লাস পার্টিতে শিক্ষার্থীরা সহপাঠীদের সঙ্গে আনন্দময় সময় কাটায় এবং সৃজনশীল কার্যক্রমে অংশ নেয়।",
+  },
+];
 
 export default function Event() {
   return (
-    <div className="container py-2">
-      <div className="row wow fadeInUp" data-wow-delay="0.1s g-4">        
-        <div className="col-lg-12 text-center">
-          <h1 className="mb-3">আমাদের আয়োজিত অনুষ্ঠান সমূহ</h1>
-          <p className="text-muted py-5">
-            বিদ্যালয়ের বার্ষিক ও বিশেষ অনুষ্ঠানসমূহের সংক্ষিপ্ত বিবরণ নিচে প্রদর্শিত হলো। প্রতিটি অনুষ্ঠানে অংশ নিতে শিক্ষার্থী ও অভিভাবকদের নির্দেশনা, অংশগ্রহণের নিয়ম ও সময়সূচি ফলাফল পৃষ্ঠায় বা বিজ্ঞপ্তির মাধ্যমে জানানো হবে।
+    <section className="event-section">
+      <div className="container">
+        <header className="event-heading">
+          <span className="event-eyebrow">স্মৃতি, শিক্ষা ও আনন্দ</span>
+          <h1>আমাদের আয়োজিত অনুষ্ঠানসমূহ</h1>
+          <p>
+            বিদ্যালয়ের জাতীয় ও প্রাতিষ্ঠানিক অনুষ্ঠানগুলোর ছবি এবং সংক্ষিপ্ত
+            বিবরণ দেখুন।
           </p>
-        </div>
+        </header>
 
-      
-      </div>
-      <div className="row g-4 pt-3 text-center">        
-        <div className="col-lg-6 " >
-          <div className="mb-4">
-            <h4 className="mb-2">জাতীয় অনুষ্ঠান সমূহ</h4>
-            <ul className="list-group shadow-sm">
-              <li className="list-group-item">শহীদ দিবস</li>
-              <li className="list-group-item">স্বাধীনতা দিবস</li>
-              <li className="list-group-item">বাংলা নববর্ষ</li>
-              <li className="list-group-item">বিজয় দিবস</li>
-            </ul>
-          </div>   
+        <div className="event-grid">
+          {events.map((event) => (
+            <Link
+              className="event-card"
+              key={event.slug}
+              to={`/events/${event.slug}`}
+              aria-label={`${event.title} সম্পর্কে বিস্তারিত দেখুন`}
+            >
+              <div className="event-card-image">
+                <img src={event.image} alt={event.title} loading="lazy" />
+                <span className="event-card-category">{event.category}</span>
+              </div>
+              <div className="event-card-content">
+                <h2>{event.title}</h2>
+                <span className="event-card-link">বিস্তারিত দেখুন <span aria-hidden="true">→</span></span>
+              </div>
+            </Link>
+          ))}
         </div>
-        <div className="col-lg-6"> 
-          <div className="mb-4">
-            <h4 className="mb-2">প্রাতিষ্ঠানিক অনুষ্ঠান সমূহ</h4>
-            <ul className="list-group shadow-sm">
-              <li className="list-group-item">বই উৎসব</li>
-              <li className="list-group-item">বার্ষিক ক্রীড়া প্রতিযোগিতা</li>
-              <li className="list-group-item">শিক্ষা সফর</li>
-              <li className="list-group-item">বৃত্তি পরীক্ষা</li>
-              <li className="list-group-item">ক্লাস পার্টি</li>
-            </ul>
-          </div>
-          {/* <div>
-            <h5 className="mb-2">আলোচ্য অনুষ্ঠানগুলোর কার্যক্রম</h5>
-            <p className="mb-0">
-              প্রতিটি অনুষ্ঠানে অংশ নিতে শিক্ষার্থী ও অভিভাবকদের নির্দেশনা, অংশগ্রহণের নিয়ম ও সময়সূচি ফলাফল পৃষ্ঠায় বা বিজ্ঞপ্তির মাধ্যমে জানানো হবে।
-            </p>
-          </div> */}
-        </div>
-
-       
-        
       </div>
-    </div>
+    </section>
   );
 }
-// ...existing code...
