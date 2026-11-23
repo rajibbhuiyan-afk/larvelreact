@@ -9,29 +9,29 @@ export default function Facilities() {
 
   const facilityList = [
     {
-      icon: 'fa-tv',
       iconBg: 'bg-primary',
+      image: '/assets/frontend_assets/img/facilities/projector.jpg',
       title: t('projector'),
       text: t('our-school-projector-makes-learning-fun-and-effective'),
       textColor: 'text-primary',
     },
     {
-      icon: 'fa-snowflake',
       iconBg: 'bg-success',
+      image: '/assets/frontend_assets/img/facilities/air-conditioner.jpg',
       title: t('air-conditioner'),
       text: t('comfortable-ac-classrooms-where-learning-is-fun-and-relaxing'),
       textColor: 'text-success',
     },
     {
-      icon: 'fa-video',
       iconBg: 'bg-warning',
+      image: '/assets/frontend_assets/img/facilities/cctv.jpg',
       title: t('cctv'),
       text: t('our-school-cctv-ensures-continuous-surveillance-for-students-safety'),
       textColor: 'text-warning',
     },
     {
-      icon: 'fa-fingerprint',
       iconBg: 'bg-info',
+      image: '/assets/frontend_assets/img/facilities/digital-attendance.jpg',
       title: t('digital-attendance'),
       text: t('fingerprint-scanning-records-attendance-safely-and-accurately'),
       textColor: 'text-info',

@@ -9,7 +9,12 @@ export default function SingleFacility({ facility, delay }) {
       <div className="facility-item">
         <div className={`facility-icon ${facility.iconBg}`}>
           <span className={facility.iconBg}></span>
-          <i className={`fa ${facility.icon} fa-3x ${facility.textColor}`}></i>
+          <img
+            className="facility-image"
+            src={facility.image}
+            alt={facility.title}
+            loading="lazy"
+          />
           <span className={facility.iconBg}></span>
         </div>
         <div className={`facility-text ${facility.iconBg}`}>
@@ -23,8 +28,8 @@ export default function SingleFacility({ facility, delay }) {
 
 SingleFacility.propTypes = {
   facility: PropTypes.shape({
-    icon: PropTypes.string.isRequired,
     iconBg: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     textColor: PropTypes.string.isRequired,
