@@ -152,9 +152,55 @@
   padding: clamp(1.5rem, 4vw, 3rem);
 }
 
+.event-gallery {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.event-gallery-year h2 {
+  margin: 0 0 1rem;
+  color: #103741;
+  font-size: 1.35rem;
+}
+
+.event-gallery-year h2 span {
+  color: #fe5d37;
+}
+
+.event-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.event-gallery-item {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 0.85rem;
+  background: #e8edf2;
+  box-shadow: 0 6px 18px rgb(16 55 65 / 8%);
+}
+
+.event-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 220ms ease;
+}
+
+.event-gallery-item:hover img {
+  transform: scale(1.035);
+}
+
 @media (max-width: 991.98px) {
   .event-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .event-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

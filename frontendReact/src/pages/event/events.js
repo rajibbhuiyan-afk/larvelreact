@@ -70,5 +70,21 @@ export const events = [
     image: "/assets/frontend_assets/img/carousel-2.jpg",
     description:
       "ক্লাস পার্টিতে শিক্ষার্থীরা সহপাঠীদের সঙ্গে আনন্দময় সময় কাটায় এবং সৃজনশীল কার্যক্রমে অংশ নেয়।",
+    gallery: [
+      {
+        year: "2025",
+        images: [
+          "/assets/frontend_assets/img/events/class-party/IMG_4177.jpg",
+          "/assets/frontend_assets/img/events/class-party/IMG_3922.jpg"
+        ]
+      },
+      {
+        year: "2024",
+        images: [
+          "/assets/frontend_assets/img/events/class-party/IMG_3881.jpg",
+          "/assets/frontend_assets/img/events/class-party/IMG_3843.jpg"
+        ]
+      }
+    ]
   },
 ];
