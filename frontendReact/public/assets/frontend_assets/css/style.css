@@ -392,6 +392,25 @@ h6,
     margin-top: -10px;
 }
 
+.class-image-frame {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgb(16 55 65 / 8%);
+}
+
+.class-image-frame .class-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: .75rem;
+    object-fit: cover;
+    transition: transform 250ms ease;
+}
+
+.classes-item:hover .class-image {
+    transform: scale(1.04);
+}
+
 
 /*** Team ***/
 .team-item .team-text {

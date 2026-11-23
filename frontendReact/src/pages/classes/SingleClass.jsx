@@ -8,8 +8,8 @@ import { useTranslation } from 'react-i18next';
   return (
     <div  className={`col-lg-4 col-md-6 wow fadeInUp`} data-wow-delay={`${0.1 * 0}s`}>
         <div className="classes-item">
-            <div className="bg-light rounded-circle w-75 mx-auto p-3">
-                <img className="img-fluid rounded-circle" src={image} alt="" />
+            <div className="class-image-frame bg-light w-75 mx-auto p-3">
+                <img className="img-fluid class-image" src={image} alt="" />
             </div>
             <div className="bg-light rounded p-lg-4 p-0 pt-5 mt-n5">
                 <a className="d-block text-center h3 mt-3 mb-4" href=""> {classTitle}</a>  
